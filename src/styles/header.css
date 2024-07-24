@@ -1,0 +1,37 @@
+
+#header1 {
+    padding: 15px 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    /* color: white; */
+    /* background-color:#673AB7; */
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+  }
+  .title-holder {
+    text-align: center;
+    margin: 0 0 40px;
+    margin-top: 20px;
+  }
+  
+  .title-holder h2 {
+    margin: 0 0 5px;
+    text-transform: uppercase;
+  }
+  
+  .title-holder .subtitle {
+    color: #999999;
+  }
+  
+  .title-holder .subtitle:before {
+    content: '-';
+    margin: 0 5px 0 0;
+  }
+  
+  .title-holder .subtitle:after {
+    content: '-';
+    margin: 0 0 0 5px;
+  }
